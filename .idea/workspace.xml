@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2701919-527b-40d8-bddd-92753e44b8dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/testapi/src/components/Module1.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testapi/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/testapi/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testapi/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/testapi/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testapi/src/components/HelloWorld.vue" beforeDir="false" />
-    </list>
+    <list default="true" id="e2701919-527b-40d8-bddd-92753e44b8dc" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +35,7 @@
       <updated>1614407630115</updated>
       <workItem from="1614407631211" duration="1036000" />
       <workItem from="1614408691412" duration="406000" />
-      <workItem from="1614409159650" duration="113000" />
+      <workItem from="1614409159650" duration="447000" />
     </task>
     <servers />
   </component>
