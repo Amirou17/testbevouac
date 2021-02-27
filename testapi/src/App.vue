@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import Module1 from './components/Module2.vue'
+import Module1 from './components/Module3.vue'
 import Vue from 'vue'
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 // Import Bootstrap an BootstrapVue CSS files (order is important)
@@ -16,6 +16,11 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 Vue.use(BootstrapVue)
 // Optionally install the BootstrapVue icon components plugin
 Vue.use(IconsPlugin)
+
+import VueObserveVisibility from 'vue-observe-visibility'
+
+Vue.use(VueObserveVisibility)
+
 export default {
   name: 'App',
   components: {
