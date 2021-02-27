@@ -1,0 +1,2 @@
+# testbevouac
+L’API https://www.emploi-store-dev.fr/portail-developpeur-cms/home/catalogue- des-api/documentation-des-api/api/api-la-bonne-boite-v1.html  Permet de récupérer une liste d’entreprises susceptibles de recruter, par ville et par secteur d’activité. Cette API permet à Bevouac d’estimer le dynamisme économique d’une zone géographique. Mais également de cibler le marketing digital en adaptant nos campagnes publicitaires en fonction des professions exercées localement.
