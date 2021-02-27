@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2701919-527b-40d8-bddd-92753e44b8dc" name="Default Changelist" comment="" />
+    <list default="true" id="e2701919-527b-40d8-bddd-92753e44b8dc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testapi/src/components/Module2.vue" beforeDir="false" afterPath="$PROJECT_DIR$/testapi/src/components/Module2.vue" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +25,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -36,6 +42,7 @@
       <workItem from="1614407631211" duration="1036000" />
       <workItem from="1614408691412" duration="406000" />
       <workItem from="1614409159650" duration="447000" />
+      <workItem from="1614411095064" duration="368000" />
     </task>
     <servers />
   </component>
@@ -43,6 +50,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="505" y="140" key="#Vue" timestamp="1614411080114">
+      <screen x="0" y="25" width="1440" height="807" />
+    </state>
+    <state x="505" y="140" key="#Vue/0.25.1440.807@0.25.1440.807" timestamp="1614411080114" />
     <state width="1398" height="204" key="GridCell.Tab.0.bottom" timestamp="1614408687945">
       <screen x="0" y="25" width="1440" height="807" />
     </state>

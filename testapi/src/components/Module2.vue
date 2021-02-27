@@ -36,7 +36,7 @@ export default {
     return {
       config : {
         headers: {
-          'Authorization' : 'Bearer pT1gt5QI36V7zYN9DRvms4zwcyk'
+          'Authorization' : 'Bearer Cvu0vjpc42qOCnvmMHVoBHoKqoY'
         }
       },
       entreprise: null,
