@@ -8,7 +8,7 @@
           <hr>
           <h5>Nombre d'étoiles : <span class="badge badge-info">{{ entreprises.stars }}</span></h5>
           <h6>Adresse : {{ entreprises.address }}</h6>
-          <div v-if="nbEntreprises" v-observe-visibility="handleScrolledToBottom"></div>
+          <div v-observe-visibility="handleScrolled" ></div>
         </div>
       </div>
     </div>
@@ -16,16 +16,20 @@
 </template>
 <script>
   import axios from 'axios'
+  import VueObserveVisibility from 'vue-observe-visibility'
+  import Vue from 'vue'
+  Vue.use(VueObserveVisibility)
   export default {
     name: 'Module3',
     data(){
       return {
         config : {
           headers: {
-            'Authorization' : 'Bearer soBIFIOujn02VfgcDOCGtEZpt4I'
+            'Authorization' : 'Bearer P9k75j2wVAGsoxhxWptvtHSlXl4'
           }
         },
         entreprises: [],
+        isVisible: false,
         page: 1,
         nbEntreprises : 0,
         dernierePage: 0,
@@ -33,18 +37,16 @@
     },
     methods: {
       async fetch(){
-        let entreprises = await axios.get('https://api.emploi-store.fr/partenaire/labonneboite/v1/company/?rome_codes_keyword_search=Informatique&departments=75,13&page='+this.page, this.config)
-        this.entreprises.push(...entreprises.data.companies)
+        let entreprises = await axios.get('https://api.emploi-store.fr/partenaire/labonneboite/v1/company/?rome_codes_keyword_search=Informatique&page_size=10&departments=75,13&page='+this.page, this.config)
+        this.entreprises = entreprises.data.companies
         this.nbEntreprises = entreprises.data.companies_count
         this.dernierePage = Math.ceil(this.nbEntreprises/10)
         console.log(this.dernierePage)
       },
-      handleScrolledToBottom(isVisible){
-        if(!isVisible){ return }
-        if (this.page > this.dernierePage){
+      handleScrolled (isVisible){
+        if (!isVisible){
           return
         }
-        console.log(this.page)
         this.page++
         this.fetch()
       },

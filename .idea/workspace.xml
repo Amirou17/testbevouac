@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="e2701919-527b-40d8-bddd-92753e44b8dc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vue-observe-visibility/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/vue-observe-visibility/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testapi/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/testapi/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testapi/src/components/Module3.vue" beforeDir="false" afterPath="$PROJECT_DIR$/testapi/src/components/Module3.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testapi/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/testapi/src/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +52,8 @@
       <workItem from="1614407631211" duration="1036000" />
       <workItem from="1614408691412" duration="406000" />
       <workItem from="1614409159650" duration="113000" />
-      <workItem from="1614448087289" duration="9819000" />
+      <workItem from="1614448087289" duration="14376000" />
+      <workItem from="1614468001398" duration="1439000" />
     </task>
     <servers />
   </component>
@@ -74,5 +77,15 @@
       <screen x="0" y="25" width="1440" height="807" />
     </state>
     <state width="1398" height="204" key="GridCell.Tab.0.right/0.25.1440.807@0.25.1440.807" timestamp="1614408687944" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/testapi/src/main.js</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -17,9 +17,6 @@ Vue.use(BootstrapVue)
 // Optionally install the BootstrapVue icon components plugin
 Vue.use(IconsPlugin)
 
-import VueObserveVisibility from 'vue-observe-visibility'
-
-Vue.use(VueObserveVisibility)
 
 export default {
   name: 'App',
